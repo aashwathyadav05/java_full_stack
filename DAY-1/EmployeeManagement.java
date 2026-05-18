@@ -9,7 +9,7 @@ public class EmployeeManagement {
     // Database configurations
     private static final String URL = "jdbc:mysql://localhost:3306/company_db";
     private static final String USER = "root";
-    private static final String PASSWORD = "20Aash05";
+    private static final String PASSWORD = "my_pass";
 
     private static void insertEmployee(Connection conn, String name, String designation, double salary) {
         String insertSQL = "INSERT INTO employees (name, designation, salary) VALUES (?, ?, ?)";
