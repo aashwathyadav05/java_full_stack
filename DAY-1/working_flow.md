@@ -1,4 +1,4 @@
-Step 1:-  
+Step 1:-
 [Your Java Code] ───(Class.forName)───> [MySQL Connector Driver JAR]
 
 Step 2:- 
